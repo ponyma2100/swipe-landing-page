@@ -1,0 +1,161 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  /* Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+  .partners > img {
+    @apply h-14 place-self-center;
+  }
+
+  a {
+    @apply no-underline	text-purple1 font-medium transition;
+  }
+
+  a:hover {
+    @apply text-primary-accent;
+  }
+
+  ul > li > a {
+    @apply text-primary-light py-0 px-4 my-0 mx-4 font-bold;
+  }
+
+  ul > li > a:hover {
+    @apply text-white underline;
+  }
+  .col > ul > li > a {
+    @apply text-primary-dark p-0 m-0 font-normal;
+  }
+
+  .col > ul > li > a:hover {
+    @apply text-purple1 underline;
+  }
+
+  .col > ul > li {
+    @apply my-4;
+  }
+
+  .section-container {
+    @apply w-full max-w-6xl;
+  }
+}
+
+@layer components {
+  .card {
+    @apply flex flex-col justify-start items-start py-2 pr-4 w-full md:w-1/2;
+  }
+
+  .card .icon {
+    @apply h-9 sm:h-12 mb-2;
+  }
+
+  .card h3 {
+    @apply font-heading font-medium text-h6 m-0 w-full;
+  }
+
+  .button {
+    @apply font-sans text-base tracking-wide	font-bold rounded-2xl  border-none text-white py-2 px-4 transition-all;
+  }
+
+  .primary-button {
+    @apply font-sans text-base tracking-wide	font-bold rounded-2xl bg-primary-accent border-none text-white py-2 px-4 transition-all;
+  }
+
+  .primary-button:hover {
+    @apply bg-primarybtnhover;
+  }
+
+  .secondary-button {
+    @apply font-sans text-base tracking-wide	font-bold rounded-2xl bg-transparent border-none text-primary-accent transition-all;
+  }
+
+  .secondary-button:hover {
+    @apply opacity-75;
+  }
+
+  .with-icon {
+    @apply flex justify-center items-center;
+  }
+
+  .with-icon > img {
+    @apply transition-transform;
+  }
+
+  .with-icon:hover > img {
+    @apply translate-x-1;
+  }
+
+  .two-column {
+    @apply w-full flex flex-col sm:flex-row justify-center items-start box-border;
+  }
+
+  .col-left {
+    @apply w-full sm:w-1/2 box-border px-0 pt-0 pb-4 flex flex-col items-start justify-center;
+  }
+
+  .col-right {
+    @apply w-full sm:w-1/2 box-border py-0 sm:px-4 flex flex-col items-start justify-center;
+  }
+
+  .bar {
+    @apply w-5 h-[2px] bg-white my-[1px];
+  }
+}
+
+html,
+body {
+  @apply w-full overflow-x-hidden relative;
+}
+
+body {
+  @apply font-sans bg-white text-primary-dark flex flex-col justify-center  w-full m-0 box-border pt-2	px-0;
+}
+
+h1 {
+  @apply font-heading font-semibold text-h1 md:text-h1md m-0 w-full tracking-tighter leading-none		 sm:leading-[108px];
+}
+
+h2 {
+  @apply font-heading font-semibold text-h3 md:text-h3md m-0 w-full;
+}
+
+h3 {
+  @apply font-heading font-medium text-h3 md:text-h3md m-0 w-full;
+}
+
+h4 {
+  @apply font-heading font-medium text-h4 m-0 w-full tracking-wide;
+}
+
+h5 {
+  @apply font-heading font-medium text-h5 m-0 w-full;
+}
+
+h6 {
+  @apply font-heading font-medium text-h6 m-0 w-full;
+}
+
+p {
+  @apply text-lg font-normal my-4 mx-0;
+}
+
+.subtitle,
+.subtitle2 {
+  @apply text-purple1 font-heading font-medium text-subtitle leading-[26px];
+}
+
+.subtitle2 {
+  @apply text-blue1;
+}
+
+.secondary-text {
+  @apply text-sm text-gray tracking-wide;
+}
