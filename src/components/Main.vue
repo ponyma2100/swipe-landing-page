@@ -17,11 +17,11 @@
         <div class="flex my-4">
           <button class="primary-button with-icon mr-4">
             Start now
-            <img src="src/assets/images/arrow-right-light.svg" alt="" />
+            <img src="/src/assets/images/arrow-right-light.svg" alt="" />
           </button>
           <button class="secondary-button with-icon text-purple2">
             Contact sales
-            <img src="src/assets/images/arrow-right-purple.svg" alt="" />
+            <img src="/src/assets/images/arrow-right-purple.svg" alt="" />
           </button>
         </div>
       </div>
@@ -29,7 +29,7 @@
         class="col-right w-2/5 md:w-1/2 h-[564px] items-end hidden sm:contents"
       >
         <img
-          src="src/assets/images/hero-phone.png"
+          src="/src/assets/images/hero-phone.png"
           alt=""
           class="h-[450px] md:h-[628px] translate-x-8 md:-translate-y-8"
         />
@@ -43,14 +43,14 @@
       <div
         class="partners grid grid-cols-2 sm:grid-cols-4 grid-rows-2 gap-y-10"
       >
-        <img src="src/assets/images/instacart.png" alt="Instacart" />
-        <img src="src/assets/images/salesforce.png" alt="Salesforce" />
-        <img src="src/assets/images/amazon.png" alt="Amazon" />
-        <img src="src/assets/images/slack.png" alt="Slack" />
-        <img src="src/assets/images/shopify.png" alt="Shopify" />
-        <img src="src/assets/images/google.png" alt="Google" />
-        <img src="src/assets/images/lyft.png" alt="Lyft" />
-        <img src="src/assets/images/zoom.png" alt="Zoom" />
+        <img src="/src/assets/images/instacart.png" alt="Instacart" />
+        <img src="/src/assets/images/salesforce.png" alt="Salesforce" />
+        <img src="/src/assets/images/amazon.png" alt="Amazon" />
+        <img src="/src/assets/images/slack.png" alt="Slack" />
+        <img src="/src/assets/images/shopify.png" alt="Shopify" />
+        <img src="/src/assets/images/google.png" alt="Google" />
+        <img src="/src/assets/images/lyft.png" alt="Lyft" />
+        <img src="/src/assets/images/zoom.png" alt="Zoom" />
       </div>
     </div>
   </div>
@@ -91,7 +91,7 @@
         class="primary-button with-icon bg-purple1 hover:bg-primary-accent"
       >
         Start now
-        <img src="src/assets/images/arrow-right-light.svg" alt="" />
+        <img src="/src/assets/images/arrow-right-light.svg" alt="" />
       </button>
     </div>
   </div>
@@ -101,24 +101,24 @@
     <div class="section-container flex">
       <div class="flex flex-col m-4">
         <img
-          src="src/assets/images/credit-card.png"
+          src="/src/assets/images/credit-card.png"
           alt=""
           class="my-4 shadow-standard"
         />
         <img
-          src="src/assets/images/phone.png"
+          src="/src/assets/images/phone.png"
           alt=""
           class="my-4 shadow-standard w-4/5"
         />
       </div>
       <div class="flex flex-col m-4">
         <img
-          src="src/assets/images/slack-invoice.png"
+          src="/src/assets/images/slack-invoice.png"
           alt=""
           class="my-4 shadow-standard"
         />
         <img
-          src="src/assets/images/dash.png"
+          src="/src/assets/images/dash.png"
           alt=""
           class="my-4 shadow-standard"
         />
@@ -143,12 +143,12 @@
           class="primary-button with-icon bg-blue1 text-primary-accent mt-2 hover:bg-white"
         >
           Start now
-          <img src="src/assets/images/arrow-right-dark.svg" alt="" />
+          <img src="/src/assets/images/arrow-right-dark.svg" alt="" />
         </button>
 
         <div class="flex flex-col md:flex-row">
           <div class="card my-8">
-            <img src="src/assets/images/tools-icon.png" alt="" class="icon" />
+            <img src="/src/assets/images/tools-icon.png" alt="" class="icon" />
             <h3>Tools for all stacks</h3>
             <p class="secondary-text">
               We offer front end and back end libraries in some of the most
@@ -156,11 +156,11 @@
             </p>
             <button class="secondary-button with-icon text-blue1">
               See libraries
-              <img src="src/assets/images/arrow-right-blue.svg" alt="" />
+              <img src="/src/assets/images/arrow-right-blue.svg" alt="" />
             </button>
           </div>
           <div class="card my-8">
-            <img src="src/assets/images/cube-icon.png" alt="" class="icon" />
+            <img src="/src/assets/images/cube-icon.png" alt="" class="icon" />
             <h3>Custom Integrations</h3>
             <p class="secondary-text">
               Use integrations for systems like Shopify, WooCommerce, NetSuite,
@@ -168,19 +168,19 @@
             </p>
             <button class="secondary-button with-icon text-blue1">
               Explore partners
-              <img src="src/assets/images/arrow-right-blue.svg" alt="" />
+              <img src="/src/assets/images/arrow-right-blue.svg" alt="" />
             </button>
           </div>
         </div>
       </div>
       <div class="col-right hidden sm:flex">
         <img
-          src="src/assets/images/api-code.png"
+          src="/src/assets/images/api-code.png"
           alt=""
           class="max-w-[470px] rounded-3xl mb-4"
         />
         <img
-          src="src/assets/images/terminal-code.png"
+          src="/src/assets/images/terminal-code.png"
           alt=""
           class="max-w-[470px] rounded-3xl"
         />
@@ -197,7 +197,7 @@
         <div
           class="card w-full sm:w-1/2 md:w-1/4 p-0 md:pr-2 mx-0 my-4 md:mr-4"
         >
-          <img src="src/assets/images/cloud-icon.png" alt="" class="icon" />
+          <img src="/src/assets/images/cloud-icon.png" alt="" class="icon" />
           <h3>Efficient Always</h3>
           <p class="text-base text-primary-dark">
             We've optimized every level of the finance stack, from integrations
@@ -205,7 +205,7 @@
           </p>
         </div>
         <div class="card w-full sm:w-1/2 md:w-1/4 p-0 md:pr-2 m-0 md:mr-4">
-          <img src="src/assets/images/cycle-icon.png" alt="" class="icon" />
+          <img src="/src/assets/images/cycle-icon.png" alt="" class="icon" />
           <h3>Fast-Improving</h3>
           <p class="text-base text-primary-dark">
             We make constant updates and improvements to help you stay on the
@@ -214,7 +214,7 @@
           </p>
         </div>
         <div class="card w-full sm:w-1/2 md:w-1/4 p-0 md:pr-2 m-0 md:mr-4">
-          <img src="src/assets/images/shield-icon.png" alt="" class="icon" />
+          <img src="/src/assets/images/shield-icon.png" alt="" class="icon" />
           <h3>Tried and true</h3>
           <p class="text-base text-primary-dark">
             Our systems operate with 100% uptime, with scalability and uptime as
@@ -222,7 +222,7 @@
           </p>
         </div>
         <div class="card w-full sm:w-1/2 md:w-1/4 p-0 md:pr-2 m-0 md:mr-4">
-          <img src="src/assets/images/bars-icon.png" alt="" class="icon" />
+          <img src="/src/assets/images/bars-icon.png" alt="" class="icon" />
           <h3>Crazy Optimized</h3>
           <p class="text-base text-primary-dark">
             We use machine learning trained on billions of data points to help
@@ -253,7 +253,7 @@
         </div>
         <div class="col-right">
           <img
-            src="src/assets/images/global-graphic.png"
+            src="/src/assets/images/global-graphic.png"
             alt=""
             class="absolute top-0 opacity-10 sm:opacity-25 max-w-2xl"
           />
@@ -311,7 +311,7 @@
           class="primary-button with-icon bg-purple1 hover:bg-primary-accent mt-4"
         >
           Start now
-          <img src="src/assets/images/arrow-right-light.svg" alt="" />
+          <img src="/src/assets/images/arrow-right-light.svg" alt="" />
         </button>
       </div>
       <div
@@ -321,14 +321,14 @@
           class="card-top relative w-full h-2/5 sm:h-1/2 flex justify-center items-center before:w-full before:h-[150%] before:absolute before:-skew-y-6 before:bg-gradient-to-r from-[#08209a] from-0.76% via-[#6563ff] via-33.33% to-[#83e2ff] to-96.96% before:-top-[40%] before:z-0"
         >
           <img
-            src="src/assets/images/swipe-sessions.png"
+            src="/src/assets/images/swipe-sessions.png"
             alt=""
             class="z-10 w-72 sm:w-80"
           />
           <div class="flex avatars absolute -bottom-16 left-16 z-10">
-            <img src="src/assets/images/avatar1.png" alt="" class="w-20" />
+            <img src="/src/assets/images/avatar1.png" alt="" class="w-20" />
             <img
-              src="src/assets/images/avatar2.png"
+              src="/src/assets/images/avatar2.png"
               alt=""
               class="absolute w-20 left-14"
             />
@@ -358,30 +358,30 @@
           class="primary-button with-icon bg-purple1 hover:bg-primary-accent"
         >
           Start now
-          <img src="src/assets/images/arrow-right-light.svg" alt="" />
+          <img src="/src/assets/images/arrow-right-light.svg" alt="" />
         </button>
       </div>
       <div class="col-right flex-row flex-wrap justify-start md:flex-nowrap">
         <div class="card mr-2 p-0 box-border w-full md:w-1/2">
-          <img src="src/assets/images/shield-icon.png" alt="" class="icon" />
+          <img src="/src/assets/images/shield-icon.png" alt="" class="icon" />
           <h3>Always know what you pay</h3>
           <p class="secondary-text">
             Integrated per-transaction pricing with no hidden fees.
           </p>
           <button class="secondary-button with-icon text-purple2">
             Pricing details
-            <img src="src/assets/images/arrow-right-purple.svg" alt="" />
+            <img src="/src/assets/images/arrow-right-purple.svg" alt="" />
           </button>
         </div>
         <div class="card box-border md:ml-8 w-full md:w-1/2">
-          <img src="src/assets/images/bars-icon.png" alt="" class="icon" />
+          <img src="/src/assets/images/bars-icon.png" alt="" class="icon" />
           <h3>Start your integration</h3>
           <p class="secondary-text">
             Get up and running with Stripe in as little as 10 minutes.
           </p>
           <button class="secondary-button with-icon text-purple2">
             API reference
-            <img src="src/assets/images/arrow-right-purple.svg" alt="" />
+            <img src="/src/assets/images/arrow-right-purple.svg" alt="" />
           </button>
         </div>
       </div>
@@ -393,13 +393,13 @@
     <div class="section-container flex flex-wrap">
       <div class="col w-1/2 sm:w-1/4 pb-4">
         <img
-          src="src/assets/images/logo-dark.svg"
+          src="/src/assets/images/logo-dark.svg"
           alt=""
           class="max-w-[108px] mb-4 w-20"
         />
         <div class="flex items-center my-4">
           <img
-            src="src/assets/images/location-icon.png"
+            src="/src/assets/images/location-icon.png"
             alt=""
             class="w-4 sm:w-6"
           />
@@ -407,7 +407,7 @@
         </div>
         <div class="flex items-center">
           <img
-            src="src/assets/images/comment-icon.png"
+            src="/src/assets/images/comment-icon.png"
             alt=""
             class="w-4 sm:w-6"
           />
